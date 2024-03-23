@@ -4,6 +4,12 @@ namespace WinFormsApp
 {
     public partial class Form1 : Form
     {
+
+        Color DefaultColor
+        {
+            get { return Color.White; }
+        }
+        
         public Form1()
         {
             InitializeComponent();
